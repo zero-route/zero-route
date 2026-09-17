@@ -27,8 +27,10 @@ jobs:
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
           plugin_stargazers_worldmap: yes
+          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_TOKEN }}
           plugin_achievements: yes
           plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
 
   pagespeed-github:
     runs-on: ubuntu-latest
@@ -45,6 +47,7 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_token: ${{ secrets.GOOGLE_TOKEN }}
           plugin_pagespeed_url: https://zero-route.github.io/Dims
 
   pagespeed-vercel:
@@ -62,4 +65,5 @@ jobs:
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_token: ${{ secrets.GOOGLE_TOKEN }}
           plugin_pagespeed_url: https://next-js-portofolio.vercel.app/
