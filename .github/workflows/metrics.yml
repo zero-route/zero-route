@@ -48,7 +48,7 @@ jobs:
           plugin_stargazers_charts: yes
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_TOKEN }}
-          plugin_stargazers_worldmap_sample: 100
+          plugin_stargazers_worldmap_sample: 40
 
   pagespeed-vercel:
     runs-on: ubuntu-latest
