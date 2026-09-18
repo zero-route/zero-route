@@ -1,4 +1,4 @@
-name: Generate Achievements Trophy
+name: achievements
 
 on:
   workflow_dispatch:
@@ -6,19 +6,25 @@ on:
     - cron: "30 0 * * *"
 
 jobs:
-  build:
+  achievements:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Generate Trophy SVG
-        uses: ryota0624/github-profile-trophy@master
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate GitHub Achievements
+        uses: lowlighter/metrics@latest
         with:
-          username: zero-route
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          user: zero-route
           filename: achievements.svg
 
-      - name: Commit & Push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Update achievements trophy SVG"
-          file_pattern: "achievements.svg"
+          template: classic
+          base: ""
+
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: no
+          plugin_achievements_threshold: C
