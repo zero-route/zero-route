@@ -2,7 +2,7 @@
 
 ### 🏆 Achievements
 
-![Achievements](https://metrics.lecoq.io/zero-route?template=classic&plugin.achievements=yes&plugin.achievements.display=compact)
+![Trophy](https://github-profile-trophy.vercel.app/?username=zero-route&theme=darkhub&no-frame=true&no-bg=true)
 
 
 ![pagespeed vercel](metrics.pagespeed-vercel.svg)
