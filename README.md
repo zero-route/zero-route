@@ -1,5 +1,9 @@
 ![metrics](metrics.svg)
 
+<p align="center">
+  <img src="metrics.stargazers.map.svg" width="100%" />
+</p>
+
 ### 🏆 Achievements
 
 <p align="left">
