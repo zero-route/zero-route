@@ -26,3 +26,7 @@ jobs:
 
           plugin_achievements: yes
           plugin_achievements_display: compact
+          plugin_achievements_ignored: member, explorer
+          plugin_achievements_only: >-
+            stargazer, maintainer, sponsor, deployer, sponsor,
+            scripter, packager, octocat, contributor
