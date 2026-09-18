@@ -45,12 +45,10 @@ jobs:
           plugin_stargazers_charts: yes
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_TOKEN }}
-          plugin_stargazers_worldmap_sample: 100
-          config_display: large
-
+          plugin_stargazers_worldmap_sample: 1000
 
           plugin_topics: yes
-          plugin_topics_limit: 12
+          plugin_topics_limit: 15
           plugin_topics_mode: mastered
           plugin_topics_sort: stars
 
@@ -76,4 +74,4 @@ jobs:
           plugin_pagespeed_detailed: yes
           plugin_pagespeed_screenshot: no
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
-          plugin_pagespeed_url: https://next-js-portfolio.vercel.app/
+          plugin_pagespeed_url: https://next-js-portfolio.vercel.app
