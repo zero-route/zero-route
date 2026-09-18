@@ -3,7 +3,6 @@
 
 
 
-![pagespeed github pages](metrics.pagespeed-github.svg)
 
 
 
