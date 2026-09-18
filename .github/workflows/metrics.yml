@@ -42,7 +42,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: zero-route
           filename: metrics.stargazers.map.svg
-          template: community
+          template: classic
           base: ""
           plugin_stargazers: yes
           plugin_stargazers_charts: yes
