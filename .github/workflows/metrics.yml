@@ -45,6 +45,10 @@ jobs:
           plugin_stargazers_charts: yes
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_TOKEN }}
+          plugin_stargazers_worldmap_sample: 200
+
+          plugin_achievements: yes
+          plugin_achievements_display: compact
 
           plugin_topics: yes
           plugin_topics_limit: 12
