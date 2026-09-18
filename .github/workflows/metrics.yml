@@ -34,8 +34,8 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: mastered
-          plugin_topics_sort: stars
-
+          plugin_topics_sort: sstars
+          
       - name: Generate World Map Standalone
         uses: lowlighter/metrics@latest
         with:
@@ -48,7 +48,7 @@ jobs:
           plugin_stargazers_charts: no
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_TOKEN }}
-          plugin_stargazers_worldmap_sample: 1000
+          plugin_stargazers_worldmap_sample: 100
 
   pagespeed-vercel:
     runs-on: ubuntu-latest
