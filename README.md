@@ -1,14 +1,14 @@
 <div align="center">
 
   <!-- Main Metrics & 3D Isometric Calendar -->
-  <img src="./metrics.svg?v=3" alt="Main Metrics" width="100%" />
+  <img src="./metrics.svg?v=4" alt="Main Metrics" width="100%" />
 
   <br /><br />
 
-  <!-- Code & Commit Activity Stats (100% Transparent Background) -->
+  <!-- Code & Commit Activity Stats (Transparent Dark Mode) -->
   <p>
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=zero-route&show_icons=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true" alt="GitHub Stats" height="165" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=zero-route&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&hide_border=true" alt="GitHub Streak" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api?username=zero-route&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" height="165" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=zero-route&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Streak" height="165" />
   </p>
 
   <br />
@@ -22,11 +22,11 @@
   <br />
 
   <!-- World Map -->
-  <img src="./metrics.stargazers.map.svg?v=3" alt="Stargazers World Map" width="100%" />
+  <img src="./metrics.stargazers.map.svg?v=4" alt="Stargazers World Map" width="100%" />
 
   <br /><br />
 
   <!-- PageSpeed Insights -->
-  <img src="./metrics.pagespeed-vercel.svg?v=3" alt="PageSpeed Insights" width="100%" />
+  <img src="./metrics.pagespeed-vercel.svg?v=4" alt="PageSpeed Insights" width="100%" />
 
 </div>
