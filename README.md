@@ -1,9 +1,17 @@
 <div align="center">
 
-  <!-- Main Metrics & Habits (Isometric + Code Activity) -->
-  <img src="./metrics.svg?v=1" alt="Main Metrics" width="100%" />
+  <!-- Main Metrics & 3D Isometric Calendar -->
+  <img src="./metrics.svg?v=2" alt="Main Metrics" width="100%" />
 
   <br /><br />
+
+  <!-- Code & Commit Activity Stats (Hardcoded Widget) -->
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=zero-route&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="165" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=zero-route&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
+  </p>
+
+  <br />
 
   <!-- Tech Stack -->
   <h3>🛠 Tech Stack</h3>
@@ -14,11 +22,11 @@
   <br />
 
   <!-- World Map -->
-  <img src="./metrics.stargazers.map.svg?v=1" alt="Stargazers World Map" width="100%" />
+  <img src="./metrics.stargazers.map.svg?v=2" alt="Stargazers World Map" width="100%" />
 
   <br /><br />
 
   <!-- PageSpeed Insights -->
-  <img src="./metrics.pagespeed-vercel.svg?v=1" alt="PageSpeed Insights" width="100%" />
+  <img src="./metrics.pagespeed-vercel.svg?v=2" alt="PageSpeed Insights" width="100%" />
 
 </div>
