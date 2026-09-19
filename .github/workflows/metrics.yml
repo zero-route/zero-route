@@ -28,6 +28,8 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_threshold: 0%
           plugin_topics: yes
           plugin_topics_limit: 15
@@ -47,20 +49,6 @@ jobs:
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_TOKEN }}
           plugin_stargazers_worldmap_sample: 100
-
-
-      - name: WakaTime
-        uses: lowlighter/metrics@latest
-        with:
-        filename: metrics.plugin.wakatime.svg
-        token: NOT_NEEDED
-        base: ""
-        plugin_wakatime: yes
-        plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
-       plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-
-
- 
 
   pagespeed-vercel:
     runs-on: ubuntu-latest
