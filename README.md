@@ -3,11 +3,6 @@
 
 
 
-
-![achievements](metrics.achievements.svg)
-
-
-
 ### 🛠 Tech Stack
 
 <p align="left">
