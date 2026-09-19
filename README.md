@@ -7,7 +7,6 @@
 
   <!-- Code & Commit Activity Stats (Transparent Dark Mode) -->
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=zero-route&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" height="165" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=zero-route&theme=transparent&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Streak" height="165" />
   </p>
 
