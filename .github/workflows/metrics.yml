@@ -18,7 +18,7 @@ jobs:
           user: zero-route
           filename: metrics.svg
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header, community, repositories, metadata
           config_display: large
           config_timezone: Asia/Makassar
           plugin_isocalendar: yes
